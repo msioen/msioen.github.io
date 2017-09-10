@@ -2,6 +2,7 @@
 layout: page
 title: About me
 subtitle: 
+show-avatar: true
 ---
 
 Hi! I'm Michiel. I'm currently a mobile developer at [Flow Pilots](http://www.flowpilots.com).
