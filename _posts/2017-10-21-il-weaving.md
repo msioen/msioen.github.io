@@ -323,7 +323,7 @@ Most of the try/finally weaving code is the same as for the normal sync methods 
 
 # State.Fody
 
-Complete code for this state plugin can be found on [github]().
+Complete code for this state plugin can be found on [github](https://michielsioen.be/2017-10-21-il-weaving/).
 
 I'm planning to have a look at the following going forwards:
 
