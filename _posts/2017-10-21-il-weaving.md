@@ -327,9 +327,9 @@ Complete code for this state plugin can be found on [github](https://github.com/
 
 I'm planning to have a look at the following going forwards:
 
-- create nuget package
-- support for correctly keeping the state if changed in multiple submethods
+- ~~create nuget package~~
+- ~~proper unit tests~~
+- ~~support for correctly keeping the state if changed in multiple submethods~~
 - ensure thread-safe changing of the state
-- proper unit tests
 <br />
 <br />
