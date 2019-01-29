@@ -40,5 +40,7 @@ Maybe somewhat differently than some of my other projects, I expect to use this 
 - Auto update - looking at [Sparkle framework](https://sparkle-project.org) for this
 - Preferences - customizable shortcut / send results to notifications / startup at boot / ...
 
+(These 'future' ideas have been implemented and are available in latest releases.)
+
 <br />
 <br />

@@ -17,7 +17,7 @@ baseurl: ""
 title: Michiel Sioen
 
 # Short description of your site
-description: Developer side notes
+description: A whole lot of everything
 
 # --- Navigation bar options --- #
 
@@ -151,6 +151,8 @@ exclude:
   - LICENSE
   - README.md
   - Vagrantfile
+  - ruby
+  - vendor
 
 # prose.io config
 prose:
