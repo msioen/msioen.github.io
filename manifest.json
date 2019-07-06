@@ -1,5 +1,5 @@
 {
-    "name": "",
+    "name": "Michiel Sioen - a whole lot of everything",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -10,9 +10,103 @@
             "src": "/android-chrome-256x256.png",
             "sizes": "256x256",
             "type": "image/png"
+        },
+        {
+            "src": "/img/ec8e6a27-2c8a-4689-7a15-4f82f75a88f0.webPlatform.png",
+            "sizes": "44x44",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/1bfa9530-e386-5de5-d9ea-b3fb71064bb2.webPlatform.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/292f3e73-a3bf-cbbe-6f62-6014b3c95dac.webPlatform.png",
+            "sizes": "1240x600",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/3fe41b7e-dcfe-0b1b-50e5-3d3f43151322.webPlatform.png",
+            "sizes": "300x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/58b31ed3-fa71-80d5-24c8-b25af8eb7bce.webPlatform.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/aaf28352-a3fb-52f5-0a40-b0e4c5cb4b1c.webPlatform.png",
+            "sizes": "88x88",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/914cf64e-b507-f51b-9999-3a4ebf3e921c.webPlatform.png",
+            "sizes": "24x24",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/fa73fcc9-bc26-5fc6-996b-5e3c68dc4787.webPlatform.png",
+            "sizes": "50x50",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/bdc3085c-dfea-2768-941e-7290642cfb27.webPlatform.png",
+            "sizes": "620x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/b90c23d1-a86a-0ed4-71e7-324993b7e5d0.webPlatform.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/dec3971f-362b-a7c8-6b12-a25549dd94e2.webPlatform.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/aaf34564-96e8-b026-b0f5-57622e96f403.webPlatform.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/c961ceaa-30d1-5dd6-a629-aa546530363e.webPlatform.png",
+            "sizes": "36x36",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/b3b5b95f-6c80-70cc-d66e-2d3e64c8bf03.webPlatform.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/b149ccd2-130c-fbf8-b049-9507c495541f.webPlatform.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/3bd3d431-66c0-ec61-d132-76e3b185d603.webPlatform.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/a6f4cb22-da45-7aed-f353-3f924327d1f3.webPlatform.png",
+            "sizes": "120x120",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/5caf216d-e51b-34b7-8579-67fae64f935b.webPlatform.png",
+            "sizes": "76x76",
+            "type": "image/png"
         }
     ],
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
-    "display": "standalone"
+    "display": "standalone",
+    "start_url": "https://michielsioen.be/",
+    "lang": "English",
+    "short_name": "Michiel Sioen",
+    "description": "Personal blog of Michiel Sioen."
 }
