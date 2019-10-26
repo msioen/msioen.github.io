@@ -45,20 +45,88 @@ common-js:
     {% include footer-scripts.html %}
 
     <script>
+        // Register the service worker
         if ("serviceWorker" in navigator) {
-        if (navigator.serviceWorker.controller) {
-            console.log("[PWA Builder] active service worker found, no need to register");
-        } else {
-            // Register the service worker
-            navigator.serviceWorker
-            .register("pwabuilder-sw.js", {
-                scope: "./"
-            })
-            .then(function (reg) {
-                console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
-            });
+          if (navigator.serviceWorker.controller) {
+              console.log("[PWA Builder] active service worker found, no need to register");
+          } else {
+              navigator.serviceWorker
+              .register("pwabuilder-sw.js", {
+                  scope: "./"
+              })
+              .then(function (reg) {
+                  console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
+              })
+              .catch(error => {
+                console.log(error);
+              });
+          }
         }
+
+        // Request notification permission if running local (no push atm)
+        if (window.matchMedia('(display-mode: standalone)').matches || 
+            window.navigator.standalone === true) {
+              subscribeToPushNotification();
         }
+
+        function subscribeToPushNotification() {
+          navigator.serviceWorker.ready
+          .then(function(registration) {
+              if (!registration.pushManager) {
+                  return false;
+              }
+
+              Notification.requestPermission().then(function(result) {
+                if(result === 'granted') {
+                  registration.pushManager.getSubscription()
+                  .then(function(subscription) {
+                    if (subscription === null) {
+                      subscribePushManager(registration);
+                    }
+                  });
+                }
+              });
+          })
+      }
+
+        async function subscribePushManager(registration) {
+          try {
+            const applicationServerKey = urlB64ToUint8Array(
+              'BLPCka3YVvtkszhqbj8R1ePFk-OqE1QCPPoRzpaet9e7r0NEAzOWtcgRvU_NDTlsArgszCjR8CVkcXG97RY9AMI'
+            )
+            const options = { applicationServerKey, userVisibleOnly: true }
+            const subscription = await registration.pushManager.subscribe(options)
+            const response = await saveSubscription(subscription)
+          } catch (err) {
+            console.log('Error', err)
+          }
+        }
+
+        const urlB64ToUint8Array = base64String => {
+          const padding = '='.repeat((4 - (base64String.length % 4)) % 4)
+          const base64 = (base64String + padding).replace(/\-/g, '+').replace(/_/g, '/')
+          const rawData = atob(base64)
+          const outputArray = new Uint8Array(rawData.length)
+          for (let i = 0; i < rawData.length; ++i) {
+            outputArray[i] = rawData.charCodeAt(i)
+          }
+          return outputArray
+        }
+
+        const saveSubscription = async subscription => {
+          const SERVER_URL = 'https://msioen-api.azurewebsites.net/api/notifications/register'
+          const response = await fetch(SERVER_URL, {
+            method: 'POST',
+            mode: 'cors',
+            headers: {
+              'Content-Type': 'application/json',
+              'x-functions-key': 'xEMgvba9ZG/eytiF4DCx7q15aRmTUtQ1rhbub2Esa0VW4stao6zNpw==',
+            },
+            body: JSON.stringify(subscription)
+          })
+          return response
+        }
+
     </script>
   
   </body>

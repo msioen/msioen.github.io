@@ -38,6 +38,16 @@ self.addEventListener("fetch", function (event) {
   );
 });
 
+self.addEventListener('push', function(event) {
+  if (event.data) {
+    const title = event.data.text();
+    const options = {
+      icon: '/android-chrome-256x256.png'
+    };
+    self.registration.showNotification(title, options);
+  }
+})
+
 function fromCache(request) {
   // Check to see if you have it in the cache
   // Return response
