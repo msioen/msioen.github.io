@@ -40,13 +40,28 @@ self.addEventListener("fetch", function (event) {
 
 self.addEventListener('push', function(event) {
   if (event.data) {
-    const title = event.data.text();
+
+    var parsed = JSON.parse(event.data.text());
+
+    const title = parsed.title;
     const options = {
-      icon: '/android-chrome-256x256.png'
+      icon: '/android-chrome-256x256.png',
+      tag: parsed.url
     };
     self.registration.showNotification(title, options);
   }
 })
+
+self.addEventListener('notificationclick', function(event) {
+  var url = event.notification.tag;
+  event.notification.close();
+
+  if (url && url.length > 0) {
+    event.waitUntil(
+      clients.openWindow(url)
+    );
+  }
+});
 
 function fromCache(request) {
   // Check to see if you have it in the cache
