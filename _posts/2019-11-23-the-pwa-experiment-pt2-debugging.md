@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The PWA Expirement - pt II
+title: The PWA Experiment - pt II
 subtitle: Testing and debugging on device
 ---
 
