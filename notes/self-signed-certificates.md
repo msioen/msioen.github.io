@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Cheatsheet
+title: Notes
 subtitle: Self-signed certificate generation
 ---
 
@@ -107,4 +107,4 @@ Navigate to your test url (in this case https://www.example.com) in a browser, y
 
 ---
 
-[Cheatsheet overview](../)
+[Notes overview](../)

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Cheatsheet
+title: Notes
 subtitle: Terminal commands
 ---
 ## General
@@ -118,4 +118,4 @@ subtitle: Terminal commands
 
 ---
 
-[Cheatsheet overview](../)
+[Notes overview](../)
