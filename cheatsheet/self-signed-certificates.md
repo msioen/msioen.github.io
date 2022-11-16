@@ -73,13 +73,13 @@ DNS.2 = www.example.org
 With this file created we can create the necessary files with the following command. At least SHA512 is necessary or some browsers are going to dismiss it as not secure enough.
 
 ```bash
-openssl req -x509 -sha512 -new -nodes -days 720 -keyout server.key -out server.crt -config server.cnf
+  openssl req -x509 -sha512 -new -nodes -days 720 -keyout server.key -out server.crt -config server.cnf
 ```
 
 If you also need a pfx file, following can be used
 
 ```bash
-openssl pkcs12 -export -out server.pfx -inkey server.key -in server.crt
+  openssl pkcs12 -export -out server.pfx -inkey server.key -in server.crt
 ```
 
 To trust this certificate (on macOS):
@@ -96,8 +96,8 @@ sudo vi /etc/hosts
 ```
 
 ```
-127.0.0.1        www.example.com
-127.0.0.1        www.example.org
+  127.0.0.1        www.example.com
+  127.0.0.1        www.example.org
 ```
 
 Navigate to your test url (in this case https://www.example.com) in a browser, you should see your own code with our trusted self-signed certificated. <br />This works as expected with ports ( :4000 / ...) added as well, no need to make any additional entries to support this.
