@@ -45,6 +45,14 @@ subtitle: Terminal commands
   defaults write com.apple.dock autohide-delay -int 0;killall Dock
 ```
 
+- screenshot settings: folder on desktop + don't show thumbnail on capture
+
+```bash
+  mkdir ~/Desktop/screenshots
+  defaults write com.apple.screencapture location ~/Desktop/screenshots
+  defaults write com.apple.screencapture "show-thumbnail" -bool "false"
+```
+
 - keep mac awake
 
 ```bash
