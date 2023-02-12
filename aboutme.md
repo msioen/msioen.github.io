@@ -5,7 +5,9 @@ subtitle:
 show-avatar: true
 ---
 
-Hi! I'm Michiel Sioen. I'm a tech enthusiast, developer, geek and currently the CTO of [Flow Pilots](https://www.flowpilots.com) where we build awesome digital tools. Before this, I worked for 4 years at the University of Central Lancashire as an interactive C# developer.
+Hi! I'm Michiel Sioen. I'm a tech enthusiast, developer, geek and currently the Competence center lead for .NET at [ACA Group](https://www.acagroup.be/).
+
+In previous lives I was CTO at Flow Pilots and an interactive C# developer at the University of Central Lancashire.
 
 I'm the organizer of the [.NET Antwerp Meetup Group](https://www.meetup.com/nl-NL/Belgian-Mobile-NET-Developers-Group) where I occasionally speak as well.
 
@@ -15,5 +17,6 @@ Side projects / currently hacking on:
 
 - [kampkok.be](https://www.kampkok.be): platform to help managing the menu and orders for big group events
 - [MenuBarCodeReader](https://github.com/msioen/MenuBarCodeReader): small macOS utility to quickly scan QR codes on screen.
+- Experiments on Azure AI offering: [Screenshot classification](/2023-02-12-ai-tagger/)
 
 Hope you find something useful here!
