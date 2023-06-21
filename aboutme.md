@@ -17,6 +17,6 @@ Side projects / currently hacking on:
 
 - [kampkok.be](https://www.kampkok.be): platform to help managing the menu and orders for big group events
 - [MenuBarCodeReader](https://github.com/msioen/MenuBarCodeReader): small macOS utility to quickly scan QR codes on screen.
-- Experiments on Azure AI offering: [Screenshot classification](/2023-02-12-ai-tagger/), [Speech to text](/2023-05-13-ai-speech-to-value/)
+- Experiments on Azure AI offering: [Screenshot classification](/2023-02-12-ai-tagger/), [Speech to text](/2023-05-13-ai-speech-to-value/), [Speech to images](/2023-06-21-ai-story-visualisation/)
 
 Hope you find something useful here!
