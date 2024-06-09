@@ -5,7 +5,7 @@ subtitle:
 show-avatar: true
 ---
 
-Hi! I'm Michiel Sioen. I'm a tech enthusiast, developer, geek and currently the Competence center lead for .NET at [ACA Group](https://www.acagroup.be/).
+Hi! I'm Michiel Sioen. I'm a tech enthusiast, developer, geek and currently the Competence Center lead for .NET at [ACA Group](https://www.acagroup.be/).
 
 In previous lives I was CTO at Flow Pilots and an interactive C# developer at the University of Central Lancashire.
 
@@ -15,9 +15,9 @@ On here I'll post opinions, issues, challenges and various titbits I run into. B
 
 Side projects / currently hacking on:
 
-- [Developer Dictionary Challenge](https://developer-dictionary.pages.dev): a small challenge-based game, testing out your developer terminology knowledge.
+- [Developer Dictionary Challenge](https://developer-dictionary.pages.dev): a small challenge-based game, testing out your developer terminology knowledge. ([Blog Post](/2024-06-08-developer-dictionary/))
 - Experiments with AI: [Screenshot classification](/2023-02-12-ai-tagger/), [Speech to text](/2023-05-13-ai-speech-to-value/), [Speech to images](/2023-06-21-ai-story-visualisation/), [Offline AI](/2024-04-16-ai-offline-llm/)
-- [kampkok.be](https://www.kampkok.be): platform to help managing the menu and orders for big group events.
-- [MenuBarCodeReader](https://github.com/msioen/MenuBarCodeReader): small macOS utility to quickly scan QR codes on screen.
+- [kampkok.be](https://www.kampkok.be): platform to help managing the menu and orders for big group events. ([Blog Post](/2022-03-02-kampkok/))
+- [MenuBarCodeReader](https://github.com/msioen/MenuBarCodeReader): small macOS utility to quickly scan QR codes on screen. ([Blog Post](/2018-03-01-menubarcodereader/))
 
 Hope you find something useful here!
