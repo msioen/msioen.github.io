@@ -9,9 +9,7 @@ Hi! I'm Michiel Sioen. I'm a tech enthusiast, developer, geek and currently the 
 
 In previous lives I was CTO at Flow Pilots and an interactive C# developer at the University of Central Lancashire.
 
-I'm the organizer of the [.NET Antwerp Meetup Group](https://www.meetup.com/nl-NL/Belgian-Mobile-NET-Developers-Group) where I occasionally speak as well.
-
-On here I'll post opinions, issues, challenges and various titbits I run into. Blog posts are often the result of experimentation or wild ideas. Because of this there's a wild range of technologies and topics covered.
+On here I'll post opinions, issues, challenges and various titbits I run into. Blog posts are often the result of experimentation or wild ideas. This has resulted in a wild range of covered technologies and topics.
 
 Side projects / currently hacking on:
 
