@@ -5,9 +5,9 @@ subtitle:
 show-avatar: true
 ---
 
-Hi! I'm Michiel Sioen. I'm a tech enthusiast, developer, geek and currently the Competence Center lead for .NET at [ACA Group](https://www.acagroup.be/).
+Hi! I'm Michiel Sioen. I'm a tech enthusiast, developer, geek and currently Chapter Lead Development at [Ypto](https://www.ypto.be).
 
-In previous lives I was CTO at Flow Pilots and an interactive C# developer at the University of Central Lancashire.
+In previous lives I was the Competence Center lead for .NET at ACA Group, CTO at Flow Pilots and an interactive C# developer at the University of Central Lancashire.
 
 On here I'll post opinions, issues, challenges and various titbits I run into. Blog posts are often the result of experimentation or wild ideas. This has resulted in a wild range of covered technologies and topics.
 
