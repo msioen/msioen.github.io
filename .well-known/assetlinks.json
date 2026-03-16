@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.companyname.WebKitAuth",
+      "sha256_cert_fingerprints": [
+        "20:D4:8E:0D:26:BF:9E:E9:7B:8A:5F:04:00:82:C4:72:37:49:C1:70:9A:94:AF:B6:E7:16:DD:89:C3:63:7F:23"
+      ]
+    }
+  }
+]
